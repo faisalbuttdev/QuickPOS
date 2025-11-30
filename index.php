@@ -27,9 +27,9 @@
 
     <!-- Hero Section -->
     <section id="hero">
-        <div class="hero-container">
+        <div class="container">
             <h1>The Last POS System You’ll Ever Need</h1>
-            <p>Manage your business efficiently with QuickPOS</p>
+            <p>Modern, simple, and efficient point-of-sale software for your business.</p>
             <a href="#signup" class="btn">Get Started for Free</a>
             <img src="mockup.png" alt="POS Mockup">
         </div>
@@ -37,27 +37,88 @@
 
     <!-- Features Section -->
     <section id="features">
-        <div class="container features-container">
+        <div class="container">
             <h2>Key Features</h2>
             <div class="features-grid">
                 <div class="feature-card">
-                    <img src="icons/inventory.png" alt="Inventory Management">
                     <h3>Inventory Management</h3>
-                    <p>Easily track your stock and products in real-time.</p>
+                    <p>Track stock levels, orders, and suppliers efficiently.</p>
                 </div>
                 <div class="feature-card">
-                    <img src="icons/analytics.png" alt="Sales Analytics">
                     <h3>Sales Analytics</h3>
-                    <p>Get detailed insights into sales trends and revenue.</p>
+                    <p>Get real-time insights into your sales performance.</p>
                 </div>
                 <div class="feature-card">
-                    <img src="icons/integration.png" alt="Easy Integration">
                     <h3>Easy Integration</h3>
-                    <p>Connect QuickPOS with your favorite apps seamlessly.</p>
+                    <p>Connect with other tools and software effortlessly.</p>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing">
+        <div class="container">
+            <h2>Pricing Plans</h2>
+            <div class="pricing-cards">
+                <div class="card">
+                    <h3>Basic</h3>
+                    <p>$10/month</p>
+                    <ul>
+                        <li>Inventory Management</li>
+                        <li>Basic Reporting</li>
+                        <li>Email Support</li>
+                    </ul>
+                    <a href="#signup" class="btn">Get Started</a>
+                </div>
+                <div class="card featured">
+                    <h3>Pro</h3>
+                    <p>$25/month</p>
+                    <ul>
+                        <li>Inventory + Sales Analytics</li>
+                        <li>Priority Support</li>
+                        <li>Multi-store Support</li>
+                    </ul>
+                    <a href="#signup" class="btn">Get Started</a>
+                </div>
+                <div class="card">
+                    <h3>Enterprise</h3>
+                    <p>Custom Pricing</p>
+                    <ul>
+                        <li>All Pro Features</li>
+                        <li>Dedicated Account Manager</li>
+                        <li>Custom Integrations</li>
+                    </ul>
+                    <a href="#signup" class="btn">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="contact.php" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>© 2025 QuickPOS. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
 
     <script src="script.js"></script>
 </body>
