@@ -17,7 +17,7 @@
                 <ul id="nav-links">
                     <li><a href="#features">Features</a></li>
                     <li><a href="#pricing">Pricing</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#contact">Contacts</a></li>
                     <li><a href="#signup" class="btn">Sign Up</a></li>
                 </ul>
                 <div id="menu-toggle">&#9776;</div>
@@ -28,7 +28,7 @@
     <!-- Hero Section -->
     <section id="hero">
         <div class="hero-content">
-            <h1>The Last POS System You'll Ever Need</h1>
+            <h1>The Last POS System You will Ever Need</h1>
             <p>Manage sales, inventory, and customers with ease.</p>
             <a href="#signup" class="cta-btn">Get Started for Free</a>
         </div>
