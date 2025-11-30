@@ -7,58 +7,48 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Navigation Bar -->
-    <header>
+    <!-- Existing Navigation & Hero Sections here -->
+
+    <!-- Pricing Section -->
+    <section id="pricing">
         <div class="container">
-            <div class="logo">
-                <a href="#">QuickPOS</a>
-            </div>
-            <nav>
-                <ul id="nav-links">
-                    <li><a href="#features">Features</a></li>
-                    <li><a href="#pricing">Pricing</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <li><a href="#signup" class="btn">Sign Up</a></li>
-                </ul>
-                <div id="menu-toggle">&#9776;</div>
-            </nav>
-        </div>
-    </header>
-
-    <!-- Hero Section -->
-    <section id="hero">
-        <div class="hero-container">
-            <h1>The Last POS System You’ll Ever Need</h1>
-            <p>Manage your business efficiently with QuickPOS</p>
-            <a href="#signup" class="btn">Get Started for Free</a>
-            <img src="mockup.png" alt="POS Mockup">
-        </div>
-    </section>
-
-    <!-- Features Section -->
-    <section id="features">
-        <div class="container features-container">
-            <h2>Key Features</h2>
-            <div class="features-grid">
-                <div class="feature-card">
-                    <img src="icons/inventory.png" alt="Inventory Management">
-                    <h3>Inventory Management</h3>
-                    <p>Easily track your stock and products in real-time.</p>
+            <h2 class="section-title">Pricing Plans</h2>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>Basic</h3>
+                    <p class="price">$19/mo</p>
+                    <ul>
+                        <li>Inventory Management</li>
+                        <li>Basic Analytics</li>
+                        <li>Email Support</li>
+                    </ul>
+                    <a href="#signup" class="btn">Choose Plan</a>
                 </div>
-                <div class="feature-card">
-                    <img src="icons/analytics.png" alt="Sales Analytics">
-                    <h3>Sales Analytics</h3>
-                    <p>Get detailed insights into sales trends and revenue.</p>
+                <div class="pricing-card">
+                    <h3>Pro</h3>
+                    <p class="price">$49/mo</p>
+                    <ul>
+                        <li>Advanced Inventory</li>
+                        <li>Sales Analytics</li>
+                        <li>Priority Support</li>
+                    </ul>
+                    <a href="#signup" class="btn">Choose Plan</a>
                 </div>
-                <div class="feature-card">
-                    <img src="icons/integration.png" alt="Easy Integration">
-                    <h3>Easy Integration</h3>
-                    <p>Connect QuickPOS with your favorite apps seamlessly.</p>
+                <div class="pricing-card">
+                    <h3>Enterprise</h3>
+                    <p class="price">$99/mo</p>
+                    <ul>
+                        <li>All Pro Features</li>
+                        <li>Custom Integrations</li>
+                        <li>Dedicated Support</li>
+                    </ul>
+                    <a href="#signup" class="btn">Choose Plan</a>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Existing Hero Section / Features / Footer -->
     <script src="script.js"></script>
 </body>
 </html>
